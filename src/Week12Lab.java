@@ -1,5 +1,9 @@
 import java.util.Arrays;
-
+/**
+@author Keiffer Button
+ Class: CS1131 Accelerated Intro to Programming
+ Lab Section: L01
+ **/
 public class Week12Lab implements Week12LabInterface{
     @Override
     public int twoWayLinearSearch(int[] array, int target) {
@@ -63,6 +67,7 @@ public class Week12Lab implements Week12LabInterface{
                 }
             }
         }
+        //prints because there's no return so this is the only way you can see if it works.
 System.out.println(Arrays.toString(array));
     }
 }
